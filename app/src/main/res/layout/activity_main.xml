@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_dark"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/text_light"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/surface">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvCredits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_muted"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnVideo1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:text="Vídeo 1"
+            android:textSize="11sp"
+            android:backgroundTint="@color/accent_amber"
+            android:textColor="@color/bg_dark" />
+
+        <Button
+            android:id="@+id/btnVideo2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:text="Vídeo 2"
+            android:textSize="11sp"
+            android:backgroundTint="@color/accent_amber"
+            android:textColor="@color/bg_dark" />
+
+        <Button
+            android:id="@+id/btnPlayPause"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:text="Pausar"
+            android:textSize="11sp"
+            android:backgroundTint="@color/accent_amber"
+            android:textColor="@color/bg_dark" />
+
+        <Button
+            android:id="@+id/btnRestart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Reiniciar"
+            android:textSize="11sp"
+            android:backgroundTint="@color/accent_amber"
+            android:textColor="@color/bg_dark" />
+
+    </LinearLayout>
+
+</LinearLayout>

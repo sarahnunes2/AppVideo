@@ -1,0 +1,8 @@
+<resources>
+    <color name="bg_dark">#1A1D23</color>
+    <color name="surface">#242830</color>
+    <color name="accent_amber">#E8A33D</color>
+    <color name="accent_teal">#3E7C8C</color>
+    <color name="text_light">#EDEDED</color>
+    <color name="text_muted">#9A9FA6</color>
+</resources>
